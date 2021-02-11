@@ -1,0 +1,20 @@
+# Name: Osama Shaikh 
+# Description: This code will tell the stepIncrease list and will check if print increase is True or False based on th given numbers.
+
+def stepIncreaseList(1,n):
+  if n == 0:
+    return True
+  return 1[-1]>1[-2] and stepIncrease(1[:-2],n-2)
+# We use this if we trying to get specific values  
+hello = input("what is your L1 value:?")
+hello1 = input("what is your L2 value:?")
+hello2 = input("what is your L3 value:?")
+
+# We use this if we hard coding 
+l1 = [4,8,12,15,3,7,1,4,8,11]
+l2 = [4,8,15,12,3,7,1,4,8,11]
+l3 = [4,4,15,12,3,7,1,4,8,11]
+
+print(stepIncreaseList(L1,len(L1)))
+print(stepIncreaseList(L2,len(L2)))
+print(stepIncreaseList(L3,len(L3)))
