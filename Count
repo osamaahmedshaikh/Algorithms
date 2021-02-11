@@ -1,0 +1,16 @@
+# Name: Osama Shaikh
+# Description: This code will count odd values between the given numbers
+
+def countOdd(1, first,last):
+  if last < first:
+    return 0
+  else: 
+    if 1[last]%2 != 0
+      return 1+ countOdd(1, first, last-1)
+    else:
+      return countOdd(1, first, last-1)
+      # we use this code if we are asking for values.
+  num1 = input("what is your countOdd?:")
+  # we use this print if we are trying to hard coding it.
+print(countOdd([1,3,5],0,2))
+print(countOdd([2,4,6],0,2))
